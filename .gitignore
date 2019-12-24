@@ -1,0 +1,12 @@
+# logs
+/logs
+*.log
+*.log.*
+
+# idea
+.idea/
+.idea/*
+*/.idea
+*/.idea/
+*/.idea/*
+*.iml
