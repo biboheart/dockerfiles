@@ -3,7 +3,7 @@ FROM alpine
 MAINTAINER biboheart "biboheart@qq.com"
 
 # 安装imagemagick & fontconfig 字体配置
-RUN apk --update add openjdk8 && \
+RUN apk --update add openjdk17 && \
 apk --update add imagemagick && \
 apk --update add ffmpeg && \
 apk --update add ttf-dejavu &&  \
